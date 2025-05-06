@@ -1,0 +1,82 @@
+
+.btn-publicacion {
+    background-color: #5ba2db;
+    /* Color de fondo verde */
+    color: #ffffff;
+    /* Texto blanco */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    font-size: 10px;
+    /* Tamaño de la fuente */
+    font-weight: bold;
+    /* Texto en negrita */
+    text-transform: uppercase;
+    /* Texto en mayúsculas */
+    text-decoration: none;
+    /* Sin subrayado */
+    cursor: pointer;
+    /* Cambia el cursor al puntero */
+    transition: all 0.3s ease;
+    /* Efecto suave al pasar el cursor */
+   }
+   
+   .btn-publicacion:hover {
+       background-color: #5ba2db;
+       /* Color más oscuro al pasar el cursor */
+       color: #e8f5e9;
+       /* Texto ligeramente más claro */
+       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+       /* Sombra */
+   }
+   
+   .btn-publicacion:active {
+       background-color: #1e7e34;
+       /* Color al hacer clic */
+       box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+       /* Sombra más pequeña */
+   }
+   
+   .project-item img {
+       max-width: 100%;
+       height: auto;
+       display: block;
+       margin: 0 auto;
+   }
+   
+   .project-item span {
+       display: block;
+       max-height: 6rem;
+       /* Limita la altura del texto */
+       overflow: hidden;
+       /* Oculta el exceso */
+       text-overflow: ellipsis;
+   }
+   
+   .project-item {
+       margin-bottom: 20px;
+   }
+   
+   .project-item .position-relative {
+       margin-bottom: 15px;
+       /* Espacio entre imagen y contenido */
+   }
+   
+   @media (max-width: 768px) {
+       .project-item {
+           padding: 10px;
+       }
+       
+       .project-carousel .owl-carousel {
+           gap: 10px;
+           /* Espaciado entre ítems */
+       }
+   }
+   
+   .project-item img {
+       margin-bottom: 10px;
+       /* Espaciado inferior */
+   }
