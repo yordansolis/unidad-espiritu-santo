@@ -1,0 +1,11 @@
+{
+    "require": {
+        "php": "^8.0",
+        "resend/resend-php": "^0.15.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer dump-autoload --optimize"
+        ]
+    }
+}
