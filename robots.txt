@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://6d9a8f99.unidad-espiritu-santo.pages.dev/sitemap.xml
