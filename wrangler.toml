@@ -1,14 +1,10 @@
 name = "unidad-espiritu-santo"
-type = "javascript"
-account_id = "your-account-id"
-workers_dev = true
-route = ""
-zone_id = "your-zone-id"
+compatibility_date = "2025-05-06"
 
 [site]
-bucket = "./public" # or your static assets directory
-entry-point = "."
+bucket = "."
 
 [build]
-command = "" # e.g., npm run build
-watch_dir = "src"
+command = "" 
+upload.format = "directory"
+upload.dir = "."
