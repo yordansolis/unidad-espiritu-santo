@@ -1,13 +1,14 @@
-[build]
-command = ""
-upload_dir = "."  # Ahora los archivos están en el mismo directorio que wrangler.toml
-
-[pages]
 name = "unidad-espiritu-santo"
-production_branch = "main"
+type = "javascript"
+account_id = "your-account-id"
+workers_dev = true
+route = ""
+zone_id = "your-zone-id"
 
-[env.production]
-compatibility_date = "2024-05-06"
+[site]
+bucket = "./public" # or your static assets directory
+entry-point = "."
 
-# Reemplazar con tu account_id de Cloudflare (encontrarlo en Dashboard -> Workers & Pages -> Account ID)
-account_id = "TU_ACCOUNT_ID"
+[build]
+command = "" # e.g., npm run build
+watch_dir = "src"
